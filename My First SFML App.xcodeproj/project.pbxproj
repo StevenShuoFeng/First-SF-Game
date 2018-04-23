@@ -10,9 +10,11 @@
 		A531CFC2208C6C3D00D1D56C /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = A531CFC1208C6C3D00D1D56C /* ResourcePath.mm */; };
 		A531CFC5208C6C3D00D1D56C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A531CFC4208C6C3D00D1D56C /* main.cpp */; };
 		A531CFC8208C6C3D00D1D56C /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A531CFC7208C6C3D00D1D56C /* cute_image.jpg */; };
-		A531CFCA208C6C3D00D1D56C /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = A531CFC9208C6C3D00D1D56C /* nice_music.ogg */; };
 		A531CFCC208C6C3D00D1D56C /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A531CFCB208C6C3D00D1D56C /* sansation.ttf */; };
 		A531CFCE208C6C3D00D1D56C /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A531CFCD208C6C3D00D1D56C /* icon.png */; };
+		A5D15FD4208DB79200CA42EE /* music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = A5ED3B2A208DB4E900561BFF /* music.ogg */; };
+		A5ED3B23208D4A2900561BFF /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = A5ED3B21208D4A2900561BFF /* background.png */; };
+		A5ED3B24208D4A2900561BFF /* character.png in Resources */ = {isa = PBXBuildFile; fileRef = A5ED3B22208D4A2900561BFF /* character.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,9 +24,11 @@
 		A531CFC3208C6C3D00D1D56C /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
 		A531CFC4208C6C3D00D1D56C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A531CFC7208C6C3D00D1D56C /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_image.jpg; sourceTree = "<group>"; };
-		A531CFC9208C6C3D00D1D56C /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
 		A531CFCB208C6C3D00D1D56C /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
 		A531CFCD208C6C3D00D1D56C /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		A5ED3B21208D4A2900561BFF /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		A5ED3B22208D4A2900561BFF /* character.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = character.png; sourceTree = "<group>"; };
+		A5ED3B2A208DB4E900561BFF /* music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = music.ogg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +61,8 @@
 		A531CFBE208C6C3D00D1D56C /* My First SFML App */ = {
 			isa = PBXGroup;
 			children = (
-				A531CFC1208C6C3D00D1D56C /* ResourcePath.mm */,
 				A531CFC3208C6C3D00D1D56C /* ResourcePath.hpp */,
+				A531CFC1208C6C3D00D1D56C /* ResourcePath.mm */,
 				A531CFC4208C6C3D00D1D56C /* main.cpp */,
 				A531CFC6208C6C3D00D1D56C /* Resources */,
 				A531CFBF208C6C3D00D1D56C /* Supporting Files */,
@@ -77,8 +81,10 @@
 		A531CFC6208C6C3D00D1D56C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A5ED3B21208D4A2900561BFF /* background.png */,
+				A5ED3B22208D4A2900561BFF /* character.png */,
 				A531CFC7208C6C3D00D1D56C /* cute_image.jpg */,
-				A531CFC9208C6C3D00D1D56C /* nice_music.ogg */,
+				A5ED3B2A208DB4E900561BFF /* music.ogg */,
 				A531CFCB208C6C3D00D1D56C /* sansation.ttf */,
 				A531CFCD208C6C3D00D1D56C /* icon.png */,
 			);
@@ -95,7 +101,7 @@
 				A531CFB7208C6C3D00D1D56C /* Sources */,
 				A531CFB8208C6C3D00D1D56C /* Frameworks */,
 				A531CFB9208C6C3D00D1D56C /* Resources */,
-				A531CFBA208C6C3D00D1D56C /* ShellScript */,
+				A531CFBA208C6C3D00D1D56C /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -142,9 +148,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5D15FD4208DB79200CA42EE /* music.ogg in Resources */,
 				A531CFCE208C6C3D00D1D56C /* icon.png in Resources */,
+				A5ED3B23208D4A2900561BFF /* background.png in Resources */,
 				A531CFCC208C6C3D00D1D56C /* sansation.ttf in Resources */,
-				A531CFCA208C6C3D00D1D56C /* nice_music.ogg in Resources */,
+				A5ED3B24208D4A2900561BFF /* character.png in Resources */,
 				A531CFC8208C6C3D00D1D56C /* cute_image.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,13 +160,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		A531CFBA208C6C3D00D1D56C /* ShellScript */ = {
+		A531CFBA208C6C3D00D1D56C /* Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
+			name = "Run Script";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
